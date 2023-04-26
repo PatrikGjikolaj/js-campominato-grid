@@ -18,8 +18,8 @@ for (let i = 0; i < 100; i++) {
     nuovoDiv.innerText= i+1
 
     nuovoDiv.addEventListener("click", function() {
-        console.log("this: ", this);
         this.classList.toggle("clicked");
+        console.log(i+1)
     });
 
     griglia.appendChild(nuovoDiv);
